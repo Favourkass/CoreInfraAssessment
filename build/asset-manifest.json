@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/static/css/main.d3232ff3.css",
+    "main.js": "/static/js/main.9d5c605d.js",
+    "static/js/453.d1a5678c.chunk.js": "/static/js/453.d1a5678c.chunk.js",
+    "static/media/LAPOLOGO.png": "/static/media/LAPOLOGO.1203756927f99669d30f.png",
+    "static/media/cardFinaLogo.png": "/static/media/cardFinaLogo.21c2d33e2e4a1dc5ea86.png",
+    "index.html": "/index.html",
+    "main.d3232ff3.css.map": "/static/css/main.d3232ff3.css.map",
+    "main.9d5c605d.js.map": "/static/js/main.9d5c605d.js.map",
+    "453.d1a5678c.chunk.js.map": "/static/js/453.d1a5678c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d3232ff3.css",
+    "static/js/main.9d5c605d.js"
+  ]
+}

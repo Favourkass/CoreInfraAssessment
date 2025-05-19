@@ -65,14 +65,20 @@ const Sidebar: React.FC<SidebarProps> = ({ currentPage, onSelectPage }) => {
           onClick={() => onSelectPage("dashboard")}
           className={`flex items-center space-x-3 py-3 px-4 rounded cursor-pointer mb-2 ${
             currentPage === "dashboard"
-              ? "bg-[rgba(174,186,201,1)] text-[rgba(1,77,175,1)]"
-              : "text-[rgba(208,213,221,1)] hover:bg-[#003366]"
+              ? "bg-[#E4F0FF] text-[rgba(1,77,175,1)]"
+                : "text-[rgba(208,213,221,1)] hover:bg-[#003366]"
           }`}
         >
           <img
             src={ImagesAndIcons.dashboard}
             alt="Dashboard"
             className="h-5 w-5"
+            style={{
+              filter:
+                currentPage === "dashboard"
+                  ? activeIconFilter
+                  : inactiveIconFilter,
+            }}
           />
           <span className="text-sm">Dashboard</span>
         </div>

@@ -7,6 +7,7 @@ import BlockUnblockCard from "./pages/BlockUnblockCard";
 import Account from "./pages/Account";
 import AuthorizationList from "./pages/AuthorizationList";
 import AuthorizationQueue from "./pages/AuthorizationQueue";
+import Dashboard from "./pages/Dashboard";
 
 const DashboardLayout = () => {
   const [currentPage, setCurrentPage] = useState("complaintsLog");
@@ -23,6 +24,8 @@ const DashboardLayout = () => {
         return <Account />;
       case "cardScheme":
         return <AuthorizationList />;
+      case "dashboard":
+        return<Dashboard  />;
       case "authorizationQueue":
         return <AuthorizationQueue />;
       default:
